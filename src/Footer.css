@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    height: 10vh;
+    background-color: black;
+    border-top: 1px solid rgb(201, 201, 201);
+    transition: 0.3s all ease-in-out;   
+    color: rgb(201, 201, 201);     
+}
+

@@ -1,0 +1,103 @@
+.searchcontainer{
+    background-color: #141414;
+    color: rgb(201, 201, 201);
+}
+.searchcontainer h1{
+    width: 100%;
+    text-align: center;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchedmovie{
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    flex-wrap: wrap;
+    color: rgb(201, 201, 201);
+    padding: 30px 30px 0px 30px;
+}
+
+.onemovie{
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10%;
+    align-items: center;
+    width: 213px;
+    border: 2px solid gray;
+    background-color: #202225;
+    margin-bottom: 6%;
+    padding-bottom: 0.1%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.onemovieimage{
+    color: red;
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+    line-height: 250px;
+    border-bottom: 1px solid black;
+    border-radius: 10px 10px 0px 0px;
+}
+.onemoviedata{
+    height: 100px;
+    text-align: center;
+}
+
+
+.onemovietitle{
+    min-height: 30px;
+
+}
+
+.searchwatchlist{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #2C8AF7;
+    color: rgb(201, 201, 201);
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: absolute;
+    top: 53%;
+    right: 3%;
+    box-shadow: 2px 2px 8px 0px black;
+    cursor: pointer;
+}
+
+.onemovie span{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #E50914;
+    color: rgb(201, 201, 201);
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: absolute;
+    top: 53%;
+    left: 3%;
+    box-shadow: 2px 2px 8px 0px black;
+    cursor: default;
+}
+
+@media screen and (max-width:800px){
+
+    .searchcontainer h1{
+
+        font-size: 1.5rem;
+    }
+
+}
+
