@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Netone/static/css/main.6f92bfd5.css",
+    "main.js": "/Netone/static/js/main.2106e5da.js",
+    "index.html": "/Netone/index.html",
+    "main.6f92bfd5.css.map": "/Netone/static/css/main.6f92bfd5.css.map",
+    "main.2106e5da.js.map": "/Netone/static/js/main.2106e5da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f92bfd5.css",
+    "static/js/main.2106e5da.js"
+  ]
+}
